@@ -1,0 +1,93 @@
+body {
+    background: #ddd;
+}
+
+div#corpo {
+    width: 800px;
+    margin: auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 30px #777;
+}
+
+table.listagem {
+    width: 100%;
+    text-align: left;
+    border-collapse:  collapse;
+}
+
+table.listagem td {
+    /* border: 1px solid #ddd; */
+    padding: 10px;
+}
+
+table.listagem tr:nth-child(even) {
+    background: #f2f2f2;
+}
+
+table.listagem td:nth-child(1) {
+    width: 50px;
+}
+
+table.listagem td:nth-child(3) {
+    width: 90px;
+}
+
+img.mini {
+    width: 50px;
+}
+
+table.detalhes {
+    width: 100%;
+}
+
+table.detalhes td {
+    padding: 10px;
+    vertical-align: top;
+    /* border: 1px solid #000; */
+}
+img.full {
+    height: 400px;
+}
+
+footer {
+    text-align: center;
+    font-family: Arial;
+    font-size: 10px;
+}
+
+.pequeno {
+    font-size: 13px;
+    text-align: right;
+}
+
+form#busca {
+    font-size: 11px;
+    text-align: right;
+}
+
+div.sucesso {
+    padding: 7px 15px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    background: rgb(226, 239, 218);
+    color: rgb(74, 116, 67);
+}
+
+div.aviso {
+    padding: 7px 15px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    background: rgb(251, 248, 229);
+    color: rgb(114, 118, 66);
+
+}
+
+div.erro {
+    padding: 7px 15px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    background: rgb(239, 223, 222);
+    color: rgb(157, 75, 69);
+}
+
